@@ -890,7 +890,7 @@ button.close:hover {
 				line-height:22px;
 				margin:10px 0px 0px;
 			}
-		#header .header-content .header-form-wrapper .header-form {
+		#header .header-content .header-form-wrapper .header-form, .mauticform_wrapper form {
 			overflow:hidden;
 			position:relative;
 			padding:30px;
@@ -938,7 +938,7 @@ button.close:hover {
 						font-size:24px;
 						margin-bottom:6px;
 					}
-			#header .header-content .header-form-wrapper .header-form label {
+			#header .header-content .header-form-wrapper .header-form label, .mauticform-row label {
 				display:block;
 				color:#4a4a4a;
 				font-size:14px;
@@ -956,7 +956,7 @@ button.close:hover {
 				margin-bottom:15px;
 			}
 			#header .header-content .header-form-wrapper .header-form input[type="text"].error, #header .header-content .header-form-wrapper .header-form input[type="email"].error, #header .header-content .header-form-wrapper .header-form textarea.error { border-color:#d43d3d; }
-			#header .header-content .header-form-wrapper .header-form input[type="submit"] {
+			#header .header-content .header-form-wrapper .header-form input[type="submit"], #header .header-form button {
 				width:100%;
 				text-align:center;
 				margin-top:7px;
@@ -1298,7 +1298,7 @@ button.close:hover {
 	}
 	
 	#header .header-content { padding-top:40px; }
-	#header .header-content .header-form-wrapper .header-form-heading, #header .header-content .header-form-wrapper .header-form { padding:25px; }
+	#header .header-content .header-form-wrapper .header-form-heading, #header .header-content .header-form-wrapper .header-form, .mauticform_wrapper form { padding:25px; }
 	#header .header-content .header-content-list {
 		min-height:510px;
 		padding-top:10px;
@@ -1359,7 +1359,7 @@ button.close:hover {
 		left:auto;
 		padding-bottom:40px;
 	}
-	#header .header-content .header-form-wrapper .header-form-heading, #header .header-content .header-form-wrapper .header-form { padding:20px; }
+	#header .header-content .header-form-wrapper .header-form-heading, #header .header-content .header-form-wrapper .header-form, .mauticform_wrapper form { padding:20px; }
 	#header .header-content .header-content-list {
 		min-height:0px;
 		padding-bottom:10px;
@@ -1590,7 +1590,7 @@ button.close:hover {
 		padding-left:20px;
 	}
 	
-	#header .header-content .header-form-wrapper .header-form-heading, #header .header-content .header-form-wrapper .header-form { padding:20px; }
+	#header .header-content .header-form-wrapper .header-form-heading, #header .header-content .header-form-wrapper .header-form, .mauticform_wrapper form { padding:20px; }
 	
 }
 
