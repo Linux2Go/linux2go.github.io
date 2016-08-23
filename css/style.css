@@ -698,7 +698,7 @@ button.close:hover {
 		padding:0px;
 	}
 	#header .navbar > .container .navbar-brand, #header .navbar > .container-fluid .navbar-brand, #navigation_affix .navbar > .container .navbar-brand, #navigation_affix .navbar > .container-fluid .navbar-brand { margin:0px; }
-		#header .navbar-brand img, #navigation_affix .navbar-brand img { height:80px; }
+		#header .navbar-brand img, #navigation_affix .navbar-brand img { height:40px; }
 #header .nav, #navigation_affix .nav {
 	overflow:hidden;
 	float:right;
