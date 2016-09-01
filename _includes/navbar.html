@@ -1,0 +1,16 @@
+<!-- #navigation -->
+<nav id="navigation" class="navbar">
+  <!-- .container -->
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="index.html"><img src="images/l2g.png" alt="Logo"></a> <!-- site logo -->
+    </div>
+    <ul class="nav navbar-nav">
+      {% for item in page.navigation %}
+      <li{% if forloop.index == 1 %} class="active"{% endif %}>
+        <a href="#{{ item[0] }}" class="smooth-scroll">{{ item[1] }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div><!-- .container end -->
+</nav><!-- #navigation end -->
